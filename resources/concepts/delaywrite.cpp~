@@ -1,0 +1,17 @@
+//This program will test a function that will write each character with a pause in between so that 
+//it looks like the message is being slowly typed out. This will add to the visual aspect of the game
+
+#include <iostream>
+#include <unistd.h>
+#include <string>
+using namespace std;
+
+void dprint(str& print)
+{
+  
+}
+
+int main()
+{
+  string input;
+  

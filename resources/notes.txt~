@@ -1,0 +1,24 @@
+//NOTES on build
+//Simple game build. Take 1
+
+General concept:
+->The game focuses on relationship building. There will be many interactions with various characters and the choices you make affect both the path you choose
+and the choices you even have. The choices you can make depend on the choices you have made in the past. 
+
+Game design:
+->"arcs" for each side character.
+
+General and technical:
+-> save files will be located in ./saves/
+-> save files will contain class information. Constructors of the variables will use this in the load() function of the main program.
+
+Classes:
+MC Class = Protagonist
+->pri: 
+*skills to be used in choices, developed by spending your time in certain areas. These will be choices also. They are point based (int)
+*
+->pub:
+
+
+Main Driver Notes:
+

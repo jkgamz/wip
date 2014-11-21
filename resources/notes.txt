@@ -1,0 +1,28 @@
+//NOTES on build
+//Simple game build. Take 1
+
+General concept:
+->The game focuses on relationship building. There will be many interactions with various characters and the choices you make affect both the path you choose
+and the choices you even have. The choices you can make depend on the choices you have made in the past. 
+
+Game design:
+->"arcs" for different aspects/portions of the story. arcs do not pertain to one path or another, but many or all of the paths. arcs 
+->Arcs
+
+Technical:
+-> save files will be located in ./saves/
+-> save files will contain class information. Constructors of the variables will use this in the load() function of the main program.
+-> arcs will each have their own file and will be compiled together with the main program. This will make it easier to add new arcs. Save data will determine which arc title and choice number was left off at. 
+-> the main program will contain the load and save functions. The load function will have the option to be launched at game start and the save function will have the option to be invoked at every choice. 
+
+Classes:
+MC Class = Protagonist
+->pri: 
+*skills to be used in choices, developed by spending your time in certain areas. These will be choices also. They are point based (int)
+*
+->pub:
+
+Side Character class = 
+
+Main Driver Notes:
+
