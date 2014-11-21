@@ -1,0 +1,11 @@
+//NOTES on build
+
+-> save files will be located in ./saves/
+-> save files will contain class information. Constructors of the variables will use this in the load() function of the main program.
+
+Classes:
+MC Class
+
+Functions:
+
+Main Driver Notes:
