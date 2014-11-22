@@ -5,9 +5,21 @@ General concept:
 ->The game focuses on relationship building. There will be many interactions with various characters and the choices you make affect both the path you choose
 and the choices you even have. The choices you can make depend on the choices you have made in the past. 
 
+->It is important not to derive the personality of the MC too much; the point of this game is to allow the user to shape that and interact more personally the the world
+
+->The game takes place halfway through university; MC transfers in and moves in temporarily with a childhood friend of his that he hasn't seen in years. MC is moving in because his mother had arranged
+it (their families are friends). Mom had promised MC would find a job and so wouldn't be much of a bother. Using savings for now. MC a 
+
+->Derived personality traits (start off): quiet
+
 Game design:
-->"arcs" for different aspects/portions of the story. arcs do not pertain to one path or another, but many or all of the paths. arcs 
-->Arcs
+->"arcs" for different aspects/portions of the story. arcs do not pertain to one path or another, but many or all of the paths.
+->Paths begin to narrow as the game progresses. Even following the same path more than once may yeild different results at the end based on previous choices.
+->Available paths and arcs are determined by point thresholds; certain arcs, options, responses, and even items require a minimum amount of points in any given category
+->This game will feature a character creation that will affect the way the protagonist class is constructed. Certain aspects and beginning ability points are dependent on
+this character creation. 
+->Most of the character creation section will take place at the beginning of the story when the main character meets his roommate. Background story, which effects some later choices in the game,
+will come out later naturally.
 
 Technical:
 -> save files will be located in ./saves/
@@ -16,13 +28,20 @@ Technical:
 -> the main program will contain the load and save functions. The load function will have the option to be launched at game start and the save function will have the option to be invoked at every choice. 
 
 Classes:
+========
 MC Class = Protagonist
 ->pri: 
 *skills to be used in choices, developed by spending your time in certain areas. These will be choices also. They are point based (int)
-*
+*personality points?
+*name
+*Job status
+
 ->pub:
 
 Side Character class = 
 
-Main Driver Notes:
+Settings Class = settings
+-pri:
+*settings including: text speed, autosave on/off, 
 
+=======
